@@ -21,6 +21,7 @@ describe EmployeeFilter do
 
   describe "#started_before_2006" do
     it "returns only employees that started before 2006" do
+      pending
       beaulah = {
         first_name: "Beaulah",
         last_name: "Thompson",
@@ -34,6 +35,7 @@ describe EmployeeFilter do
 
   describe "#all_with_start_date" do
     it "returns the employees with their start dates" do
+
       employees_with_start_dates = [
         "Beaulah Thompson (Lead Security Facilitator) - 2/9/2005",
         "Benny Walker (National Research Officer) - 6/23/2006"
