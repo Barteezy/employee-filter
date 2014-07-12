@@ -21,7 +21,7 @@ describe EmployeeFilter do
 
   describe "#started_before_2006" do
     it "returns only employees that started before 2006" do
-      pending
+
       beaulah = {
         first_name: "Beaulah",
         last_name: "Thompson",
